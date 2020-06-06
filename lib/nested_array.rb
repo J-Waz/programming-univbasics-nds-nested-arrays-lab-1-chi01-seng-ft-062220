@@ -59,6 +59,6 @@ def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
   matrix[row][column]
-  matrix[row1][column1]
+  matrix[new_value][new_value]
   
 end
